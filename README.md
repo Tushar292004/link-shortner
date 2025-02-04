@@ -189,7 +189,7 @@ function App() {
 export default App;
 ```
 
-### Update app-layout.tsx
+### Update app-layout.jsx
 ```bash
 import Header from "@/components/header";
 import {Outlet} from "react-router-dom";
@@ -217,7 +217,7 @@ export default AppLayout;
 npx shadcn@latest add dropdown-menu button
 npm i @radix-ui/react-avatar
 ```
-- Code for header.tsx:
+- Code for header.jsx:
 ```bash
 import { Link, useNavigate } from "react-router-dom";
 import {
